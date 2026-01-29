@@ -1,0 +1,20 @@
+version: "0.1"
+
+entries:
+  - id: "revo-core"
+    name: "Revo Core"
+    description: "Shared base utilities and conventions used by all Revo modules."
+    manifest_url: "https://github.com/revodata/revo-core-module/blob/main/module.yaml"
+    ref-type: "tag"
+
+  - id: "revo-databricks-sdp"
+    name: "Databricks SDP"
+    description: "Databricks project scaffold with Unity Catalog defaults, jobs, and CI/CD wiring."
+    manifest_url: "https://github.com/revodata/revo-databricks-sdp/blob/main/modules/sdp/module.yaml"
+    ref-type: "branch"
+
+  - id: "revo-devex-tooling"
+    name: "DevEx Tooling"
+    description: "Developer experience helpers like just recipes, pre-commit, and repo bootstrap scripts."
+    manifest_url: "https://github.com/revodata/revo-devex-tooling/blob/main/module.yaml"
+    ref-type: "main"
